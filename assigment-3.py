@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[4]:
-
+#author:Mariem Ossama Hussien Ahmed
 
 x=input("Enter sentence ")
 count=0
