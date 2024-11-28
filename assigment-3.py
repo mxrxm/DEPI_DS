@@ -2,7 +2,7 @@
 # coding: utf-8
 
 # In[4]:
-
+#author:Mariem Ossama Hussien Ahmed
 
 x=input("Enter sentence ")
 count=0
@@ -15,14 +15,16 @@ print(count)
 
 # In[13]:
 
-
-lists=input("Enter list ")
-numbers=list(map(int, lists.split(',')))
+find_max(numbers):
 maxnum=-100
 for i in numbers :
     if i>maxnum:
         maxnum=i
-print(maxnum)    
+return maxnum    
+lists=input("Enter list ")
+numbers=list(map(int, lists.split(',')))
+
+print(find_max(numbers))    
 
 
 # In[ ]:
